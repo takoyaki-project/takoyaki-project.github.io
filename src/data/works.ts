@@ -93,6 +93,7 @@ const worksData: Work[] = [
     status: "公開中",
     featured: true,
     platform: "GitHub Pages",
+    imageUrl: "/images/thumb-are-ureta.png",
     appUrl: "https://takoyaki-project.github.io/are-ureta-event-register/",
     githubUrl: "https://github.com/takoyaki-project/are-ureta-event-register",
     isPublic: true,
