@@ -141,7 +141,7 @@ const worksData: Work[] = [
     status: "公開中",
     platform: "GitHub Pages",
      imageUrl: "/images/thumb-courage-counter.png",
-    appUrl: "https://takoyaki-project.github.io/courage-counter/",
+    appUrl: "https://courage-counter.lovable.app",
     githubUrl: "https://github.com/takoyaki-project/courage-counter",
     isPublic: true,
     displayOrder: 40,
