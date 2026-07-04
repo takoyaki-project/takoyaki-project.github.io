@@ -75,18 +75,43 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-    ],
+   meta: [
+  { charSet: "utf-8" },
+  { name: "viewport", content: "width=device-width, initial-scale=1" },
+
+  { title: "TAKOYAKI PROJECT" },
+  {
+    name: "description",
+    content:
+      "小さな困りごとを、AIと一緒にWebアプリにしていく個人プロジェクトの展示室。",
+  },
+  { name: "author", content: "TAKOYAKI PROJECT" },
+
+  { property: "og:title", content: "TAKOYAKI PROJECT" },
+  {
+    property: "og:description",
+    content:
+      "小さな困りごとを、AIと一緒にWebアプリにしていく個人プロジェクトの展示室。",
+  },
+  { property: "og:type", content: "website" },
+  { property: "og:url", content: "https://takoyaki-project.github.io/" },
+  {
+    property: "og:image",
+    content: "https://takoyaki-project.github.io/images/ogp-portfolio.png",
+  },
+
+  { name: "twitter:card", content: "summary_large_image" },
+  { name: "twitter:title", content: "TAKOYAKI PROJECT" },
+  {
+    name: "twitter:description",
+    content:
+      "小さな困りごとを、AIと一緒にWebアプリにしていく個人プロジェクトの展示室。",
+  },
+  {
+    name: "twitter:image",
+    content: "https://takoyaki-project.github.io/images/ogp-portfolio.png",
+  },
+],
     links: [
       { rel: "icon", type: "image/svg+xml", href: asset("/favicon.svg") },
       { rel: "apple-touch-icon", href: asset("/favicon.svg") },
