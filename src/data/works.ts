@@ -172,7 +172,7 @@ const worksData: Work[] = [
     status: "公開中",
     platform: "GitHub Pages",
     imageUrl: "/images/thumb-takoyaki-quest.png",
-    appUrl: "https://takoyaki-project.github.io/takoyaki-quest-log/",
+    appUrl: "https://codepen.io/dfbitwqs-the-animator/full/WbRwPWZ",
     githubUrl: "https://github.com/takoyaki-project/takoyaki-quest-log",
     isPublic: true,
     displayOrder: 60,
