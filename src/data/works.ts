@@ -138,10 +138,13 @@ const worksData: Work[] = [
     description:
       "飛び込み営業や声かけの活動を前向きに続けるための営業応援カウンター。断られた回数や話を聞いてもらえた回数を記録し、月別履歴で振り返れます。",
     categories: ["仕事・営業"],
-    status: "公開中",
-    platform: "GitHub Pages",
-     imageUrl: "/images/thumb-courage-counter.png",
-    appUrl: "https://courage-counter.lovable.app",
+    status: "リニューアル準備中",
+    platform: "GitHub",
+    imageUrl: "/images/thumb-courage-counter.png",
+    // 旧: https://courage-counter.lovable.app（Lovable解約によりリンク切れ）
+    // GitHub Pages化はビルド設定の工事が必要なため、それまでの間は
+    // リポジトリへのリンクにしておく（リンク切れよりずっと良い）
+    appUrl: "https://github.com/takoyaki-project/courage-counter",
     githubUrl: "https://github.com/takoyaki-project/courage-counter",
     isPublic: true,
     displayOrder: 40,
@@ -170,7 +173,7 @@ const worksData: Work[] = [
       "アプリ開発や日々の進捗を、RPG風の世界観で記録する開発ログ風アプリです。制作のセーブポイントとして楽しめるミニアプリです。",
     categories: ["創作", "生活"],
     status: "公開中",
-    platform: "GitHub Pages",
+    platform: "CodePen",
     imageUrl: "/images/thumb-takoyaki-quest.png",
     appUrl: "https://codepen.io/dfbitwqs-the-animator/full/WbRwPWZ",
     githubUrl: "https://github.com/takoyaki-project/takoyaki-quest-log",
