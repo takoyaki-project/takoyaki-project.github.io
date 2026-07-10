@@ -138,7 +138,7 @@ const worksData: Work[] = [
       "飛び込み営業や声かけの活動を前向きに続けるための営業応援カウンター。断られた回数や話を聞いてもらえた回数を記録し、月別履歴で振り返れます。",
     categories: ["仕事・営業"],
     status: "試作公開中",
-    featured: true
+    featured: true,
     platform: "GitHub",
     imageUrl: "/images/thumb-courage-counter.png",
     // 旧: https://courage-counter.lovable.app（Lovable解約によりリンク切れ）
