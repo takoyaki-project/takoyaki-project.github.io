@@ -112,23 +112,6 @@ function About() {
             完成度の高いものだけでなく、試作や検証中のアイデアも制作記録として掲載しています。開発の裏側は note、ソースコードは GitHub で公開しています。
           </p>
         </div>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <a
-            href={externalLinks.note}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-md border border-border bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-secondary"
-          >
-            noteを見る
-          </a>
-          <a
-            href={externalLinks.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-md border border-border bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-secondary"
-          >
-            GitHubを見る
-          </a>
         </div>
       </div>
     </section>
