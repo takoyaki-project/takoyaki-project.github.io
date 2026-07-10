@@ -90,8 +90,7 @@ function Hero() {
               noteを見る
             </a>
           </div>
-        </div>
-      </div>
+              </div>
     </section>
   );
 }
