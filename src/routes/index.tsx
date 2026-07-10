@@ -90,7 +90,8 @@ function Hero() {
               noteを見る
             </a>
           </div>
-              </div>
+ </div>
+      </div>
     </section>
   );
 }
@@ -111,8 +112,7 @@ function About() {
             完成度の高いものだけでなく、試作や検証中のアイデアも制作記録として掲載しています。開発の裏側は note、ソースコードは GitHub で公開しています。
           </p>
         </div>
-        </div>
-      </div>
+              </div>
     </section>
   );
 }
