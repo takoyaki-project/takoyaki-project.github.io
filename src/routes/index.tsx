@@ -103,18 +103,37 @@ function About() {
         <h2 className="text-2xl font-semibold">About</h2>
         <div className="mt-5 space-y-4 text-base leading-relaxed text-muted-foreground">
           <p>
-            TAKOYAKI PROJECT は、日常や仕事、地域活動の中で見つけた小さな困りごとを、
-            AIと一緒にWebアプリとして形にしていく制作プロジェクトです。
+            TAKOYAKI PROJECT を運営しているのは、40代の主婦・けいこです。専業主婦歴13年、プログラミング未経験。
           </p>
           <p>
-            完成度の高いサービスだけでなく、試作や検証中のアイデアも制作記録として掲載しています。
+            「席替えって、意外と大変らしい」「バザーのレジ、もっと手軽にできないかな」——そんな家族や周りの人の小さなつぶやきを、AIと一緒にWebアプリとして形にしています。
           </p>
+          <p>
+            完成度の高いものだけでなく、試作や検証中のアイデアも制作記録として掲載しています。開発の裏側は note、ソースコードは GitHub で公開しています。
+          </p>
+        </div>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <a
+            href={externalLinks.note}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-md border border-border bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-secondary"
+          >
+            noteを見る
+          </a>
+          <a
+            href={externalLinks.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-md border border-border bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-secondary"
+          >
+            GitHubを見る
+          </a>
         </div>
       </div>
     </section>
   );
 }
-
 function Featured() {
   return (
     <section id="featured" className="border-b border-border">
