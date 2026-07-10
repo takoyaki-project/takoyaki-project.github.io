@@ -147,7 +147,7 @@ const worksData: Work[] = [
     appUrl: "https://github.com/takoyaki-project/courage-counter",
     githubUrl: "https://github.com/takoyaki-project/courage-counter",
     isPublic: true,
-    displayOrder: ,
+    displayOrder: 30,
   },
 {
     id: "ai-danshi-roulette",
