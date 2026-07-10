@@ -160,7 +160,7 @@ const worksData: Work[] = [
     status: "公開中",
     featured: true,
     platform: "GitHub Pages",
-    imageUrl: "/images/thumb-chap.png",
+    imageUrl: "/images/thumb-ai-danshi-roulette-card.png",
     appUrl: "https://takoyaki-project.github.io/ai-danshi-roulette/",
     githubUrl: "https://github.com/takoyaki-project/ai-danshi-roulette",
     isPublic: true,
