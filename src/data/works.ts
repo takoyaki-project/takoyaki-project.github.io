@@ -97,7 +97,7 @@ const worksData: Work[] = [
     appUrl: "https://takoyaki-project.github.io/are-ureta-event-register/",
     githubUrl: "https://github.com/takoyaki-project/are-ureta-event-register",
     isPublic: true,
-    displayOrder: 10,
+    displayOrder: 20,
   },
   {
     id: "seat-assignment",
@@ -113,7 +113,7 @@ const worksData: Work[] = [
     appUrl: "https://takoyaki-project.github.io/seat-assignment-app/",
     githubUrl: "https://github.com/takoyaki-project/seat-assignment-app",
     isPublic: true,
-    displayOrder: 20,
+    displayOrder: 10,
   },
   {
     id: "souzoku-map",
@@ -123,12 +123,11 @@ const worksData: Work[] = [
       "相続人の関係を見える化し、相続や事業承継の話を整理するための試作アプリです。家族関係や相続の流れを、図でわかりやすく確認できることを目指しています。",
     categories: ["仕事・営業"],
     status: "試作公開中",
-    featured: true,
     platform: "CodePen",
     imageUrl: "/images/thumb-souzokumap-card.png",
     appUrl: "https://codepen.io/dfbitwqs-the-animator/full/bNgWpvm",
     isPublic: true,
-    displayOrder: 30,
+    displayOrder: 45,
   },
   {
     id: "tsugi-ikoka",
@@ -138,7 +137,8 @@ const worksData: Work[] = [
     description:
       "飛び込み営業や声かけの活動を前向きに続けるための営業応援カウンター。断られた回数や話を聞いてもらえた回数を記録し、月別履歴で振り返れます。",
     categories: ["仕事・営業"],
-    status: "リニューアル準備中",
+    status: "試作公開中",
+    featured: true
     platform: "GitHub",
     imageUrl: "/images/thumb-courage-counter.png",
     // 旧: https://courage-counter.lovable.app（Lovable解約によりリンク切れ）
@@ -147,7 +147,24 @@ const worksData: Work[] = [
     appUrl: "https://github.com/takoyaki-project/courage-counter",
     githubUrl: "https://github.com/takoyaki-project/courage-counter",
     isPublic: true,
-    displayOrder: 40,
+    displayOrder: ,
+  },
+{
+    id: "ai-danshi-roulette",
+    title: "AI男子ルーレット",
+    subtitle: "乙女ゲーム風ミニルーレット",
+    description:
+      "AI男子たちが「今日の開発相棒」に立候補!? ボタンひとつで、今日の推しと応援セリフをお迎えできるミニWebアプリ。",
+    note: "このアプリは非公式の創作作品です。実在する企業・サービス・商標とは関係ありません。",
+    categories: ["創作"],
+    status: "公開中",
+    featured: true,
+    platform: "GitHub Pages",
+    imageUrl: "/images/thumb-chap.png",
+    appUrl: "https://takoyaki-project.github.io/ai-danshi-roulette/",
+    githubUrl: "https://github.com/takoyaki-project/ai-danshi-roulette",
+    isPublic: true,
+    displayOrder: 35,
   },
   {
     id: "ai-danshi",
@@ -182,7 +199,7 @@ const worksData: Work[] = [
   },
   {
     id: "kyodo-konyu",
-    title: "共同購入 在庫メモ",
+    title: "みんなの在庫メモ",
     subtitle: "在庫管理メモアプリ",
     description:
       "食品や日用品などの在庫を、分類ごとにメモして管理するためのローカル保存型アプリです。共同購入や家庭内の在庫確認を想定しています。",
