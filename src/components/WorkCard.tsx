@@ -8,6 +8,7 @@ const statusStyles: Record<WorkStatus, string> = {
   MVP: "bg-mint/40 text-mint-foreground border-mint-foreground/20",
   プロトタイプ: "bg-grape/40 text-grape-foreground border-grape-foreground/20",
   非公開デモ: "bg-muted text-muted-foreground border-border",
+  デモ版: "bg-muted text-muted-foreground border-border",
   アイデア保管中: "bg-secondary text-secondary-foreground border-border",
 };
 
