@@ -254,6 +254,20 @@ const worksData: Work[] = [
     isPublic: false,
     displayOrder: 100,
   },
+  {
+    id: "shotoku-taishi",
+    title: "聖徳太子",
+    subtitle: "保険営業向け音声文字起こしアプリ",
+    description:
+      "保険営業特化のAIボイスレコーダー。録音するだけで提出フォーマット準拠の商談記録を自動生成します。月額課金ゼロ、履歴は端末内保存です。",
+    note: "デモをご覧になりたい方はお問い合わせください。",
+    categories: ["仕事・営業"],
+    status: "非公開デモ",
+    platform: "一般公開なし",
+    imageUrl: "/images/thumb-syoutoku-taishi-card.png",
+    isPublic: false,
+    displayOrder: 110,
+  },
 ];
 
 /** 表示順（displayOrder 昇順）でソートした作品一覧 */
