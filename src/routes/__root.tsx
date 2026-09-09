@@ -148,7 +148,7 @@ gtag('config', 'G-HE8F2XKJS6');`,
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <head>
         <HeadContent />
       </head>

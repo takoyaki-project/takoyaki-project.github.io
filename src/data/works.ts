@@ -74,6 +74,7 @@ export const STATUS_ORDER: WorkStatus[] = [
 
 export const CATEGORIES: WorkCategory[] = [
   "学校・子ども会",
+  "地域活動",
   "仕事・営業",
   "生活",
   "創作",
@@ -167,6 +168,22 @@ const worksData: Work[] = [
     githubUrl: "https://github.com/takoyaki-project/ai-danshi-roulette",
     isPublic: true,
     displayOrder: 35,
+  },
+  {
+    id: "totonoeru",
+    title: "ととのえる",
+    subtitle: "ひと息ぶんのタイルパズル",
+    catchphrase: "3つ整えたら、おしまい。",
+    description:
+      "2枚のタイルを入れ替えて、見本と同じ並びに整える短時間パズル。1回3問で必ず終わり、タイマーや点数、連続記録に追われず、1〜3分の気分転換に遊べます。",
+    categories: ["生活", "創作"],
+    status: "公開中",
+    platform: "GitHub Pages",
+    imageUrl: "/images/thumb-totonoeru-card.png",
+    appUrl: "https://takoyaki-project.github.io/totonoeru-puzzle/",
+    githubUrl: "https://github.com/takoyaki-project/totonoeru-puzzle",
+    isPublic: true,
+    displayOrder: 40,
   },
   {
     id: "ai-danshi",
