@@ -211,7 +211,7 @@ const worksData: Work[] = [
     categories: ["生活", "創作"],
     status: "公開中",
     platform: "GitHub Pages",
-    imageUrl: "/images/thumb-happybirthday-tome-card.png",
+    imageUrl: "/images/thumb-happybirthday-tome-card.png?v=2",
     appUrl: "https://takoyaki-project.github.io/happybirthday-tome/",
     githubUrl: "https://github.com/takoyaki-project/happybirthday-tome",
     isPublic: true,
