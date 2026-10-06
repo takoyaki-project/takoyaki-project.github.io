@@ -202,6 +202,22 @@ const worksData: Work[] = [
     displayOrder: 50,
   },
   {
+    id: "happybirthday-tome",
+    title: "自分に、おめでとう。",
+    subtitle: "吹き消して祝う誕生日アプリ",
+    catchphrase: "きょうは、あなたが主役。",
+    description:
+      "名前とろうそくの本数を選び、歌のあとに火を吹き消してお祝いする小さな誕生日アプリ。スマホだけでも、ケーキを持ったぬいぐるみと一緒でも楽しめます。",
+    categories: ["生活", "創作"],
+    status: "公開中",
+    platform: "GitHub Pages",
+    imageUrl: "/images/thumb-happybirthday-tome-card.png",
+    appUrl: "https://takoyaki-project.github.io/happybirthday-tome/",
+    githubUrl: "https://github.com/takoyaki-project/happybirthday-tome",
+    isPublic: true,
+    displayOrder: 55,
+  },
+  {
     id: "takoyaki-quest",
     title: "たこやきクエスト",
     subtitle: "開発ログ風ミニアプリ",
